@@ -1,0 +1,4 @@
+(executable
+ (public_name data-structures-and-algorithms)
+ (name main)
+ (libraries data_structures_and_algorithms))
