@@ -1,6 +1,6 @@
 (lang dune 3.21)
 
-(name data-structures-and-algorithms)
+(name dsa)
 
 (generate_opam_files true)
 
@@ -16,10 +16,10 @@
 (documentation https://url/to/documentation)
 
 (package
- (name data-structures-and-algorithms)
+ (name dsa)
  (synopsis "A short synopsis")
  (description "A longer description")
- (depends ocaml)
+ (depends ocaml ppx_jane)
  (tags
   ("add topics" "to describe" your project)))
 

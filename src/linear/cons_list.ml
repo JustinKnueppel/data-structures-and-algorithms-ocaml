@@ -88,5 +88,8 @@ let rec find f = function
   | Cons (x, xs) -> if f x then Some x else find f xs
 
 let pure x = Cons (x, Nil)
-
 let bind f xs = xs |> map f |> flatten
+
+let%expect_test "Simple test" =
+  print_string "sup";
+  [%expect {| what's up |}]

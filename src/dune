@@ -1,0 +1,4 @@
+(library
+ (name dsa)
+ (public_name dsa)
+ (libraries dsa_internal_linear))

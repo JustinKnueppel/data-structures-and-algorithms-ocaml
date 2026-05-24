@@ -1,0 +1,6 @@
+(library
+ (name dsa_internal_linear)
+ (public_name dsa.linear)
+ (inline_tests)
+ (preprocess
+   (pps ppx_jane)))
